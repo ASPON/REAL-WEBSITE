@@ -1,0 +1,40 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+a{
+text-decoration: none;
+font-size: 20px;
+color: white;
+
+}
+nav{
+background-color: black;
+display: flex;
+padding: 2rem 3rem;
+align-items: center;
+gap: 2rem;
+padding-left: 900px;
+width: 1500px;
+margin-left: 5px;
+border-radius: 50px;
+}
+a:hover{
+text-decoration: underline;
+color:red;
+}
+body{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.342),rgba(0, 0, 0, 0.774)) ,url(./namu.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.name{
+font-size: 50px;
+color: white;
+margin-top: 230px;
+background-color: rgba(128, 128, 128, 0.219);
+
+
+}
